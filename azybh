@@ -1,4 +1,4 @@
-local key = _G.Key
+local key = getgenv().Key
 local check = "https://azynre.000webhostapp.com/check.php/checkhere?key=" .. key
 if game:HttpGet(check) == "Whitelisted" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/nguoidanongdongnai/Azynretest/main/scriptkey"))()
